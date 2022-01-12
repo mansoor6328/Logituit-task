@@ -30,7 +30,7 @@ function App() {
   const location = useLocation();
   return (
     <>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Pages>
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.pathname}>
